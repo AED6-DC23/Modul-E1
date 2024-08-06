@@ -1,0 +1,51 @@
+.navigation{
+    float: right;
+    height: 100%;
+    position: sticky;
+  
+    
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 11px 50px;
+    background-color: #101010;
+
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.inner-header {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.img {
+    float: left;
+    display: flex;
+    position: absolute;
+    top: 100px;
+}
+
+.img p {
+    font-size: xx-large;
+}
+
+.contact {
+    font-size: xx-large;
+}
+
+
